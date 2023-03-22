@@ -1,6 +1,6 @@
-Ext.define('Ext.cmp.cmp_setup.models.settings.Model', {
+Ext.define('Tualo.setup.models.settings.Model', {
   extend: 'Ext.app.ViewModel',
-  requires:[ 'Ext.cmp.cmp_setup.models.settings.TreeModel' ],
+  requires:[ 'Tualo.setup.models.settings.TreeModel' ],
   alias: 'viewmodel.cmp_setup_settings_model',
 
   stores:{
@@ -9,7 +9,7 @@ Ext.define('Ext.cmp.cmp_setup.models.settings.Model', {
       autoSync: true,
       type: 'tree',
       pageSize: 10000,
-      model: 'Ext.cmp.cmp_setup.models.settings.TreeModel',
+      model: 'Tualo.setup.models.settings.TreeModel',
       listeners: {
         beforeload: 'onBeforeLoad'
       },

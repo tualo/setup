@@ -1,4 +1,4 @@
-Ext.define('Ext.cmp.cmp_setup.models.ViewportModel', {
+Ext.define('Tualo.setup.models.ViewportModel', {
     extend: 'Ext.app.ViewModel',
     alias: 'viewmodel.cmp_setup_viewport',
    

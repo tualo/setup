@@ -1,4 +1,4 @@
-Ext.define('Ext.cmp.cmp_setup.models.settings.TreeModel', {
+Ext.define('Tualo.setup.models.settings.TreeModel', {
     extend: 'Ext.data.TreeModel',
     fields: [
       {

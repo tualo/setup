@@ -1,7 +1,7 @@
-Ext.define('Ext.cmp.cmp_setup.models.groups.Model', {
+Ext.define('Tualo.setup.models.groups.Model', {
   extend: 'Ext.app.ViewModel',
   requires:[
-    'Ext.cmp.cmp_setup.models.users.GroupsModel'
+    'Tualo.setup.models.users.GroupsModel'
   ],
   alias: 'viewmodel.cmp_setup_groups',
 
@@ -11,7 +11,7 @@ Ext.define('Ext.cmp.cmp_setup.models.groups.Model', {
       autoSync: true,
       type: 'store',
       storeId: 'cmp_setup_store_groups',
-      model: 'Ext.cmp.cmp_setup.models.users.GroupsModel',
+      model: 'Tualo.setup.models.users.GroupsModel',
       pageSize: 10000,
       listeners: {
         beforeload: function(store,operation){

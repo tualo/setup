@@ -1,4 +1,4 @@
-Ext.define('Ext.cmp.cmp_setup.controller.settings.Controller', {
+Ext.define('Tualo.setup.controller.settings.Controller', {
     extend: 'Ext.app.ViewController',
     alias: 'controller.cmp_setup_settings_controller',
     onBeforeLoad: function(m,e,o){

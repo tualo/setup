@@ -1,10 +1,10 @@
-Ext.define('Ext.cmp.cmp_setup.models.menus.Model', {
+Ext.define('Tualo.setup.models.menus.Model', {
   extend: 'Ext.app.ViewModel',
   requires:[
-    'Ext.cmp.cmp_setup.models.menus.ComponentModel',
-    'Ext.cmp.cmp_setup.models.users.GroupsModel',
-    'Ext.cmp.cmp_setup.models.menus.TreeModel',
-    'Ext.cmp.cmp_setup.models.menus.ParameterModel'
+    'Tualo.setup.models.menus.ComponentModel',
+    'Tualo.setup.models.users.GroupsModel',
+    'Tualo.setup.models.menus.TreeModel',
+    'Tualo.setup.models.menus.ParameterModel'
   ],
   alias: 'viewmodel.cmp_setup_menu_tree',
   formulas: {
@@ -24,7 +24,7 @@ Ext.define('Ext.cmp.cmp_setup.models.menus.Model', {
       autoSync: true,
       type: 'json',
       storeId: 'cmp_setup_store_groups',
-      model: 'Ext.cmp.cmp_setup.models.users.GroupsModel',
+      model: 'Tualo.setup.models.users.GroupsModel',
       pageSize: 10000,
       proxy: {
         type: 'ajax',
@@ -62,7 +62,7 @@ Ext.define('Ext.cmp.cmp_setup.models.menus.Model', {
       autoSync: true,
       type: 'json',
       storeId: 'cmp_setup_store_params',
-      model: 'Ext.cmp.cmp_setup.models.menus.ParameterModel',
+      model: 'Tualo.setup.models.menus.ParameterModel',
       pageSize: 10000,
       proxy: {
         type: 'ajax',
@@ -101,7 +101,7 @@ Ext.define('Ext.cmp.cmp_setup.models.menus.Model', {
       autoSync: true,
       type: 'json',
       storeId: 'cmp_setup_store_components',
-      model: 'Ext.cmp.cmp_setup.models.menus.ComponentModel',
+      model: 'Tualo.setup.models.menus.ComponentModel',
       pageSize: 10000,
       proxy: {
         type: 'ajax',
@@ -179,7 +179,7 @@ Ext.define('Ext.cmp.cmp_setup.models.menus.Model', {
       autoLoad: true,
       autoSync: true,
       type: 'tree',
-      model: 'Ext.cmp.cmp_setup.models.menus.TreeModel',
+      model: 'Tualo.setup.models.menus.TreeModel',
       pageSize: 10000,
       proxy: {
         type: 'ajax',

@@ -1,4 +1,4 @@
-Ext.define('Ext.cmp.cmp_setup.models.menus.ParameterModel', {
+Ext.define('Tualo.setup.models.menus.ParameterModel', {
   extend: 'Ext.data.Model',
   idProperty: 'id',
   fields: [

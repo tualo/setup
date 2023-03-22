@@ -1,4 +1,4 @@
-Ext.define('Ext.cmp.cmp_setup.controller.groups.Controller', {
+Ext.define('Tualo.setup.controller.groups.Controller', {
     extend: 'Ext.app.ViewController',
     alias: 'controller.cmp_setup_groups',
 

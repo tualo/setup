@@ -1,4 +1,4 @@
-Ext.define('Ext.cmp.cmp_setup.models.users.GridModel', {
+Ext.define('Tualo.setup.models.users.GridModel', {
   extend: 'Ext.data.Model',
   idProperty: 'login',
   fields: [

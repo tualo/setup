@@ -1,9 +1,9 @@
-Ext.define('Ext.cmp.cmp_setup.models.users.Model', {
+Ext.define('Tualo.setup.models.users.Model', {
   extend: 'Ext.app.ViewModel',
   requires:[
-    'Ext.cmp.cmp_setup.models.users.GridModel',
-    'Ext.cmp.cmp_setup.models.users.ClientsModel',
-    'Ext.cmp.cmp_setup.models.users.GroupsModel'
+    'Tualo.setup.models.users.GridModel',
+    'Tualo.setup.models.users.ClientsModel',
+    'Tualo.setup.models.users.GroupsModel'
   ],
   alias: 'viewmodel.cmp_setup_users_model',
   formulas: {
@@ -28,7 +28,7 @@ Ext.define('Ext.cmp.cmp_setup.models.users.Model', {
       //groupField: 'typ',
       sorters: ['typ','login'],
       pageSize: 10000,
-      model: 'Ext.cmp.cmp_setup.models.users.GridModel',
+      model: 'Tualo.setup.models.users.GridModel',
       proxy: {
         type: 'ajax',
 
@@ -74,7 +74,7 @@ Ext.define('Ext.cmp.cmp_setup.models.users.Model', {
       autoSync: true,
       type: 'json',
       pageSize: 10000,
-      model: 'Ext.cmp.cmp_setup.models.users.ClientsModel',
+      model: 'Tualo.setup.models.users.ClientsModel',
       proxy: {
         type: 'ajax',
 
@@ -112,7 +112,7 @@ Ext.define('Ext.cmp.cmp_setup.models.users.Model', {
       autoSync: true,
       type: 'json',
       pageSize: 10000,
-      model: 'Ext.cmp.cmp_setup.models.users.GroupsModel',
+      model: 'Tualo.setup.models.users.GroupsModel',
       proxy: {
         type: 'ajax',
 

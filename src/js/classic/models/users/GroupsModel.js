@@ -1,4 +1,4 @@
-Ext.define('Ext.cmp.cmp_setup.models.users.GroupsModel', {
+Ext.define('Tualo.setup.models.users.GroupsModel', {
   extend: 'Ext.data.Model',
   idProperty: 'id',
   fields: [

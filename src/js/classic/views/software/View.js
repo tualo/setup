@@ -1,11 +1,11 @@
-Ext.define('Ext.cmp.cmp_setup.views.software.View', {
+Ext.define('Tualo.setup.views.software.View', {
   extend: 'Ext.panel.Panel',
   requires: [
     'Ext.data.*',
     'Ext.grid.*',
     'Ext.tree.*',
-    'Ext.cmp.cmp_setup.models.software.Model',
-    'Ext.cmp.cmp_setup.controller.software.Controller',
+    'Tualo.setup.models.software.Model',
+    'Tualo.setup.controller.software.Controller',
     'Ext.grid.feature.Grouping'
   ],
   xtype: 'software-grid',

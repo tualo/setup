@@ -1,12 +1,12 @@
-Ext.define('Ext.cmp.cmp_setup.views.groups.View', {
+Ext.define('Tualo.setup.views.groups.View', {
   extend: 'Ext.panel.Panel',
   requires: [
     'Ext.data.*',
     'Ext.grid.*',
     'Ext.tree.*',
     'IconFont.form.field.ComboBox',
-    'Ext.cmp.cmp_setup.models.groups.Model',
-    'Ext.cmp.cmp_setup.controller.groups.Controller'
+    'Tualo.setup.models.groups.Model',
+    'Tualo.setup.controller.groups.Controller'
   ],
   xtype: 'groups-panel',
   controller: 'cmp_setup_groups',

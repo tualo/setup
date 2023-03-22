@@ -1,4 +1,4 @@
-Ext.define('Ext.cmp.cmp_setup.controller.ViewportController', {
+Ext.define('Tualo.setup.controller.ViewportController', {
     extend: 'Ext.app.ViewController',
     alias: 'controller.cmp_setup_viewport',
     onSelectionChange: function(tree,records,opt){
@@ -9,7 +9,7 @@ Ext.define('Ext.cmp.cmp_setup.controller.ViewportController', {
     },
     routeToSetup: function(routeParts){
       /*
-      console.log('Ext.cmp.cmp_setup.controller.ViewportController','routeToSetup',routeParts)
+      console.log('Tualo.setup.controller.ViewportController','routeToSetup',routeParts)
       var key =  routeParts[0]; routeParts=routeParts.slice(1);
       var param = '';
       var view = '';

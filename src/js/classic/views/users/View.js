@@ -1,11 +1,11 @@
-Ext.define('Ext.cmp.cmp_setup.views.users.View', {
+Ext.define('Tualo.setup.views.users.View', {
   extend: 'Ext.panel.Panel',
   requires: [
     'Ext.data.*',
     'Ext.grid.*',
     'Ext.tree.*',
-    'Ext.cmp.cmp_setup.models.users.Model',
-    'Ext.cmp.cmp_setup.controller.users.Controller',
+    'Tualo.setup.models.users.Model',
+    'Tualo.setup.controller.users.Controller',
     'Ext.grid.feature.Grouping'
   ],
   xtype: 'menu-user-grid',

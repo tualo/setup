@@ -1,11 +1,11 @@
-Ext.define('Ext.cmp.cmp_setup.views.settings.View', {
+Ext.define('Tualo.setup.views.settings.View', {
   extend: 'Ext.panel.Panel',
   requires: [
     'Ext.data.*',
     'Ext.grid.*',
     'Ext.tree.*',
-    'Ext.cmp.cmp_setup.models.settings.Model',
-    'Ext.cmp.cmp_setup.controller.settings.Controller'
+    'Tualo.setup.models.settings.Model',
+    'Tualo.setup.controller.settings.Controller'
   ],
   xtype: 'settings-form',
   controller: 'cmp_setup_settings_controller',

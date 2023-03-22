@@ -1,12 +1,12 @@
-Ext.define('Ext.cmp.cmp_setup.Viewport', {
+Ext.define('Tualo.setup.view.setup.Panel', {
   extend: 'Ext.tualo.ApplicationPanel',
   requires: [
     'IconFont.form.field.ComboBox',
-    'Ext.cmp.cmp_setup.models.ViewportModel',
-    'Ext.cmp.cmp_setup.controller.ViewportController',
-    //'Ext.cmp.cmp_setup.views.*'
-    'Ext.cmp.cmp_setup.views.users.View',
-    'Ext.cmp.cmp_setup.views.menus.View'
+    'Tualo.setup.models.ViewportModel',
+    'Tualo.setup.controller.ViewportController',
+    //'Tualo.setup.views.*'
+    'Tualo.setup.views.users.View',
+    'Tualo.setup.views.menus.View'
   ],
   layout: {
     type: 'border',

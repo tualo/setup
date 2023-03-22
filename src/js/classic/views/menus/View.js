@@ -1,12 +1,12 @@
-Ext.define('Ext.cmp.cmp_setup.views.menus.View', {
+Ext.define('Tualo.setup.views.menus.View', {
   extend: 'Ext.panel.Panel',
   requires: [
     'Ext.data.*',
     'Ext.grid.*',
     'Ext.tree.*',
     'IconFont.form.field.ComboBox',
-    'Ext.cmp.cmp_setup.models.menus.Model',
-    'Ext.cmp.cmp_setup.controller.menus.Controller'
+    'Tualo.setup.models.menus.Model',
+    'Tualo.setup.controller.menus.Controller'
   ],
   xtype: 'menu-tree-grid',
   controller: 'cmp_setup_menu_tree',

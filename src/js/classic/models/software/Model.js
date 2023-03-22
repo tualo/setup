@@ -1,7 +1,7 @@
-Ext.define('Ext.cmp.cmp_setup.models.software.Model', {
+Ext.define('Tualo.setup.models.software.Model', {
   extend: 'Ext.app.ViewModel',
   requires:[
-    'Ext.cmp.cmp_setup.models.software.SoftwareModel'
+    'Tualo.setup.models.software.SoftwareModel'
   ],
   alias: 'viewmodel.cmp_setup_software_model',
 
@@ -11,7 +11,7 @@ Ext.define('Ext.cmp.cmp_setup.models.software.Model', {
       autoSync: true,
       type: 'json',
       pageSize: 10000,
-      model: 'Ext.cmp.cmp_setup.models.users.GroupsModel',
+      model: 'Tualo.setup.models.users.GroupsModel',
       proxy: {
         type: 'ajax',
 
@@ -49,7 +49,7 @@ Ext.define('Ext.cmp.cmp_setup.models.software.Model', {
       autoLoad: true,
       autoSync: true,
       type: 'store',
-      model: 'Ext.cmp.cmp_setup.models.software.SoftwareModel',
+      model: 'Tualo.setup.models.software.SoftwareModel',
       pageSize: 10000,
       listeners: {
         beforeload: function(store,operation){

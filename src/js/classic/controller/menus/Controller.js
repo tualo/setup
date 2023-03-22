@@ -1,4 +1,4 @@
-Ext.define('Ext.cmp.cmp_setup.controller.menus.Controller', {
+Ext.define('Tualo.setup.controller.menus.Controller', {
     extend: 'Ext.app.ViewController',
     alias: 'controller.cmp_setup_menu_tree',
 

@@ -1,4 +1,4 @@
-Ext.define('Ext.cmp.cmp_setup.models.software.SoftwareModel', {
+Ext.define('Tualo.setup.models.software.SoftwareModel', {
   extend: 'Ext.data.Model',
   idProperty: 'id',
   fields: [
