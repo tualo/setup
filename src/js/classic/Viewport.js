@@ -1,7 +1,7 @@
 Ext.define('Tualo.setup.view.setup.Panel', {
-  extend: 'Ext.tualo.ApplicationPanel',
+  extend: 'Ext.Panel',
   requires: [
-    'IconFont.form.field.ComboBox',
+    //'IconFont.form.field.ComboBox',
     'Tualo.setup.models.ViewportModel',
     'Tualo.setup.controller.ViewportController',
     //'Tualo.setup.views.*'
