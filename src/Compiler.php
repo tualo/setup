@@ -1,5 +1,5 @@
 <?php
-namespace Tualo\Office\Dashboard;
+namespace Tualo\Office\Setup;
 
 use Tualo\Office\Basic\TualoApplication;
 use Tualo\Office\ExtJSCompiler\ICompiler;

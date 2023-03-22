@@ -5,7 +5,7 @@ use Tualo\Office\Basic\Route;
 use Tualo\Office\Basic\IRoute;
 
 
-class DashboardRoute implements IRoute{
+class User implements IRoute{
     public static function register(){
 
         Route::add('/setup/user',function(){
